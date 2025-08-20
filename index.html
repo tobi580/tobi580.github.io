@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>Talent Show.</title>
+    <style>
+      body {
+        width: 100px;
+        margin: 200px 200px;
+        border: 5px solid darkblue;
+        padding: 40px 43px;
+        background-color: #eee;
+        text-align: center;
+        border-radius: 25px;
+      }
+      body {
+        background-color: rgb(50, 0, 30);
+      }
+      #greet {
+        color: dodgerblue;
+        padding-bottom: 15px;
+      }
+    </style>
+    <script>
+      function myfunction() {
+        document.getElementById("greet").innerHTML =
+          "Welcome To our talent show and custome day programe In this area i will tell you morfe about our talent shokw it has started withe the first bhs student and has been going like that now but we decided that it will be boring sso we decided to introduce custome day";
+        document.getElementById("greet").style.color = "gold";
+
+        document.getElementById("fan").style.margin = "50px 200px";
+      }
+
+      function home() {
+        document.getElementById("greet").innerHTML =
+          "Thanks For All Your Support";
+        document.getElementById("greet").style.color = "dodgerblue";
+
+        document.getElementById("fan").style.margin = "200px 200px";
+      }
+    </script>
+  </head>
+  <body id="fan">
+    <p
+      id="greet"
+      onclick="this.innerHTML='Fuck You!!!'"
+      ondblclick="this.innerHTML='Thanks For All Your Support'"
+    >
+      Thanks For All Your Support
+    </p>
+    <button type="button" onclick="myfunction()">Greets</button>
+    <button type="button" onclick="home()">Home</button>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body{width:100px;
+    margin: 200px 200px;
+    border: 5px solid darkblue  ;
+    padding:40px 43px;
+    background-color: #eee;
+    text-align:center;
+    border-radius: 25px;
+    }
+    body{
+        background-color: rgb(50, 0, 30);
+    }
+    #greet{
+        color:dodgerblue;
+        padding-bottom: 15px;
+    }
+   
+
+    
